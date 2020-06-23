@@ -178,7 +178,7 @@ img {
   color: var(--light);
 }
 .gallery {
-    padding-right:50px;
+    width:100%;
 }
 .message-wrapper {
   border-bottom: 1px solid #eee;
