@@ -220,6 +220,10 @@ footer {
   justify-content: space-between;
 }
 
+.contact-submit {
+  display: block;
+}
+
 /* ----------------------------*/
 
 
