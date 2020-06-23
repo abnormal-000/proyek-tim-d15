@@ -204,8 +204,20 @@ img {
 .footer-logo {
   width: 250px;
 } 
+
 .contact-form {
-  padding-top: 100px;
+  padding-top: 10px;
+}
+
+.contact-form {
+  display: block;
+  padding-left: 100px;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 
