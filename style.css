@@ -201,6 +201,10 @@ img {
 
 
 /* Footer */
+.footer-left {
+  padding-right: 100px;
+}
+
 .footer-logo {
   width: 250px;
 } 
@@ -211,17 +215,33 @@ img {
 
 .contact-form {
   display: block;
-  padding-left: 100px;
+  padding-left: : 100px;
 }
 
 footer {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
 }
 
 .contact-submit {
   display: block;
+  padding: 5px 20px;
+  background-color: white;
+  cursor: pointer;
+}
+
+.contact-submit:hover {
+  position: relative;
+  top: 7px;
+}
+
+input {
+  width: 300px;
+}
+
+textarea {
+  width: 300px;
 }
 
 /* ----------------------------*/
